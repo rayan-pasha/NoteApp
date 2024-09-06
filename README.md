@@ -1,2 +1,6 @@
-# security-final
-SOFE 4840U: Software &amp; Computer Security Final Project: Pic-Crypt
+# Simple Note App
+🛠️ Built With
+- HTML
+- CSS
+- Javascript
+- REST API
