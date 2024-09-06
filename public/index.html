@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Notes App</h1>
+    <div id="note-form">
+      <label for="noteTitle">Title:</label>
+      <input type="text" id="noteTitle" placeholder="Enter note title">
+      <label for="noteContent">Content:</label>
+      <textarea id="noteContent" placeholder="Enter note content"></textarea>
+      <button id="addNoteButton">Add Note</button>
+    </div>
+    <div id="note-list">
+      <!-- Notes will be displayed here -->
+    </div>
+  </div>
+
+  <!-- Modal for editing notes -->
+  <div id="editModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Edit Note</h2>
+      <label for="editNoteTitle">Title:</label>
+      <input type="text" id="editNoteTitle">
+      <label for="editNoteContent">Content:</label>
+      <textarea id="editNoteContent"></textarea>
+      <button id="saveEditButton">Save Changes</button>
+    </div>
+  </div>
+
+  <script src="frontend.js"></script>
+</body>
+</html>
