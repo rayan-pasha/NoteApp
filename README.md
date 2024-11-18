@@ -1,4 +1,4 @@
-# Simple Note App
+# Note App
 🛠️ Built With
 - HTML
 - CSS
